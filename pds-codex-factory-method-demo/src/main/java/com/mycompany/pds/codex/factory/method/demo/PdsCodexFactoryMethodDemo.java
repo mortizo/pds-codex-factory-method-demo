@@ -11,6 +11,6 @@ package com.mycompany.pds.codex.factory.method.demo;
 public class PdsCodexFactoryMethodDemo {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Hola Mundo!");
     }
 }
