@@ -7,6 +7,7 @@ public final class PdsCodexFactoryMethodDemo {
     }
 
     public static void main(String[] args) {
+        System.out.println("Hola mundo...");
         List<CreadorContrato> creadores = List.of(
                 new CreadorContratoFijo(1_500.00, 200.00, 5, 12.00),
                 new CreadorContratoFactura(1_200.00, 3, 75.00),
