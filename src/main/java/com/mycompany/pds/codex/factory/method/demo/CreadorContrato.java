@@ -1,15 +1,12 @@
-package com.example.factorymethod;
+package com.mycompany.pds.codex.factory.method.demo;
 
 /**
- * Creador abstracto del patrón Factory Method.
+ * Creador abstracto: delega la creación del producto a cada subclase concreta.
  */
 public abstract class CreadorContrato {
 
     public abstract Contrato crearContrato();
 
-    /**
-     * Operación común que trabaja con el producto sin conocer su clase concreta.
-     */
     public double calcularSueldo() {
         return crearContrato().calcularSueldo();
     }

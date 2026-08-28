@@ -1,4 +1,4 @@
-package com.example.factorymethod;
+package com.mycompany.pds.codex.factory.method.demo;
 
 /**
  * Contrato por factura: monto facturado más bonos por entregables terminados.

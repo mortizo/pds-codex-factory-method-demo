@@ -1,4 +1,4 @@
-package com.example.factorymethod;
+package com.mycompany.pds.codex.factory.method.demo;
 
 public final class CreadorContratoFactura extends CreadorContrato {
     private final double montoFacturado;

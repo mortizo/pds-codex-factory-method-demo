@@ -1,4 +1,4 @@
-package com.example.factorymethod;
+package com.mycompany.pds.codex.factory.method.demo;
 
 /**
  * Contrato temporal: horas normales y horas extra con recargo del 50 %.

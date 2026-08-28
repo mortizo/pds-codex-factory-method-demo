@@ -1,4 +1,4 @@
-package com.example.factorymethod;
+package com.mycompany.pds.codex.factory.method.demo;
 
 /**
  * Contrato fijo: salario mensual, bono de desempeño y pago de horas extra.

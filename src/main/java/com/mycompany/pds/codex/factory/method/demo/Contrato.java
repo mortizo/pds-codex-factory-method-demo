@@ -1,15 +1,10 @@
-package com.example.factorymethod;
+package com.mycompany.pds.codex.factory.method.demo;
 
 /**
  * Producto abstracto del patrón Factory Method.
  */
 public abstract class Contrato {
 
-    /**
-     * Calcula la remuneración total según las reglas del tipo de contrato.
-     *
-     * @return remuneración total
-     */
     public abstract double calcularSueldo();
 
     protected static void validarNoNegativo(String nombre, double valor) {
